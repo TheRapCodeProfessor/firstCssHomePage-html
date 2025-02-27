@@ -1,0 +1,123 @@
+.whole{
+    background-color: #F4FFC3;
+}
+.please{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#5D8736;   
+}
+
+.red{
+    height: 80vh;
+    display: inline-block;
+  }
+.flow{
+    height: 80vh;
+    align-self: flex-end;
+    
+}
+.text{
+    color: #F4FFC3;
+    font-family: "Satisfy", serif;
+}
+.gold{
+    font-size: 100px;
+    margin-bottom: 0px;
+}
+.job{
+    text-align: center;
+    color:#A9C46C;
+}
+.d-block{
+    border-radius: 50%;
+}
+
+.first{
+    font-family: "Satisfy", serif;
+    color:#809D3C;
+}
+.containe{
+    display: grid;
+    grid-template-columns:200px auto;
+    gap: 1rem;
+    padding-left: 20rem;
+    
+}
+.rap-gif{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.container2{
+    display: grid;
+    grid-template-columns:200px auto;
+    gap: 3rem;
+}
+.rap-text{
+    width: 60%
+}
+a{
+    color:#5D8736  ;
+    font-family: "Montserrat", sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.btn {
+    background: #5D8736 ;
+    background-image: linear-gradient(to bottom,  #5D8736 ,  #5D8736);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+.corn{
+    background-color: #5D8736;
+}
+.Skill-div{
+    text-align: center;
+}
+
+@media (max-width:576px) 
+{
+    .red {height:20vh}
+    .please{position: relative;
+             height: 200px;}
+    .gold{font-size: 45px;
+        position: absolute;
+        margin-top: 1px;
+        transform: translateX(-10px);
+        bottom: 65%;}
+
+    .job{font-size:20px ;}
+    .flow{height: 20vh;}
+    .d-block{
+        height:170px;}
+    .rap-section{ transform: translateY(-30px);}
+    .containe{
+        display:block;
+        transform: translateY(-130px);
+         padding-right:0px;
+        padding:25%;}
+    .rap-text{
+        transform: translateX(-20px);
+        scroll-margin-top: 0%;
+        width: 125%;
+        text-align:center
+    }
+    .Skill-div{
+        transform: translateY(-80px);
+    }
+    .translation-section{
+        transform: translateY(-200px);
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+    .px-4{
+       
+    }
+      
+}
